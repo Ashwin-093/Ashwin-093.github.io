@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(238, 230, 250);
+  color: #2e1a47;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+.header {
+  background: linear-gradient(135deg, #a56cc1, #6a0dad);
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+.profile-pic {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 5px solid white;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.name {
+  font-size: 32px;
+  margin: 10px 0;
+}
+
+.tagline {
+  font-size: 18px;
+  font-style: italic;
+  color: #e8d7f9;
+}
+
+main {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+section {
+  background: white;
+  margin: 20px 0;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(106, 13, 173, 0.15);
+}
+
+h2 {
+  color: #6a0dad;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #d1b3ff;
+  padding-bottom: 5px;
+}
+
+#info div {
+  font-size: 17px;
+  margin: 5px 0;
+}
+
+#info span {
+  font-weight: bold;
+  color: #8a2be2;
+}
+
+#portfolio ul {
+  list-style-type: square;
+  padding-left: 20px;
+  color: #4b0082;
+}
+
+footer {
+  background: #2e1a47;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
